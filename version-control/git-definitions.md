@@ -12,3 +12,5 @@ A commit is a save and a comment used to keep edits made and describe what has c
 
 * What is a merge conflict?
 A merge conflict is what occurs when edits made on a branch conflict with the master code or files you're trying to merge it to.
+
+lallalalallalalallala
