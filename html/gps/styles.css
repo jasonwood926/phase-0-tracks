@@ -1,0 +1,26 @@
+body {background: lightblue;}
+
+table {padding: 20px;
+	border: outset;}
+
+p {margin: 20px 20px;
+font-family: helvetica}
+
+h1 {text-align: center;}
+
+h2 {text-align: center;}
+
+img {max-width: 800px;
+z-index: -1;
+position: relative;
+bottom: 200px;}
+
+.lorem {color: green}
+
+a:visited {color: darkgreen;}
+
+#definition {font-style: italic}
+
+@media all and (max-width: 600px) {
+  body {
+    font-size: 75%; }
