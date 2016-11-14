@@ -4,17 +4,42 @@ blockquote {
   margin-left: 0px;
 }
 
+body {
+  max-width: 960px;
+  min-width: 300px;
+}
+
 cite {
   display: block;
   margin-top: 10px;
 }
+
 
 #external-links ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-/* you're welcome to edit the
+
+#external-links {
+ width: 20%;
+ display: inline-block;
+ vertical-align: top;
+ }
+
+main {
+ width: 78%;
+ display: inline-block;
+}
+
+
+  /* you're welcome to edit the
+display: inline;
+  vertical-align: baseline;
+}
+
+main {width: 756px}
+
 image, figure, and figcaption CSS if you'd like, 
 but it's optional! */
 img {
@@ -30,3 +55,25 @@ figcaption {
   font-style: italic;
   text-align: right;
 }
+
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;}
+
+
+@media all and (max-width: 500px) {
+  body {
+    font-size: 80%; 
+}
+
+@media screen and (max-width: 500px){
+    ul {
+        content: "Wildflowers on Wikipedia";
+        font-style: italic;
+        color: #666666;
+    }
+}
+
+
+
