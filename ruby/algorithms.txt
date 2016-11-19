@@ -1,0 +1,20 @@
+Elevator programming for personal robot:
+
+-Enter Elevator and visually scan for keypad. 
+-Align yourself in front of the elevator in within less than arms distance. 
+-Ask the user which floor they would like to go to. 
+-Get desired floor.
+-Push button corresponding to floor number desired. 
+-Announce “ok, closing door”
+-When display in elevator indicates you’ve reached the desired floor, announce “#{floor number}, you’ve arrived”
+-leave elevator with user while scanning so as not to hit anyone potentially walking in. 
+
+Laundry Automatic Doer
+-Separates all laundry by color sensor. 
+-puts whichever has more laundry in first and places other color type on other side. If color weight is equal, pick a side to wash first at random. 
+-sets laundry machine to preset options for color being washed now. 
+-starts load and after finished sensor goes off, place load in dryer and starts on color type preset. 
+-moves leftover laundry into wash. 
+-Sets to color type preset and washes laundry. 
+-after timer expires, removes laundry from dryer.
+-places last load of laundry in dryer and dries at colortype presets.
