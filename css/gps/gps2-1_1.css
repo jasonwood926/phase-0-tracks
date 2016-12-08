@@ -1,0 +1,21 @@
+header{
+  color: pink;
+  font-family: helvetica;
+}
+
+.foot{
+  float: left;
+  width: 45%
+  }
+  
+table{
+  float: right;
+  width: 20%
+  }
+  
+  .profile-pic{
+    width: 100px;
+   }
+   
+   
+  
