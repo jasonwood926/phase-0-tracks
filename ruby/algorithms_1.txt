@@ -1,0 +1,19 @@
+-programming algorithm for elevator use for robot
+-move forward into elevator
+-scan for keypad and move within less than arms reach of keypad
+-ask the user which floor they would like to go to
+-take an integer input for floor number
+-press the number button corresponding to the floor the user says
+-say "ok going to #{floor} floor"
+-after elevator stops moving says "welcome to floor #{floor}"
+
+
+-programming algorithm for plant care drone
+-uses map algorithm to determine space/dimensions of room
+-detects moisture levels in soil for necessary watering
+-if water levels are low or depleted, fills drone reservoir with needed water volume and flies to plant with deficiency
+-repeats until all plants are properly watered
+-detects nutrient levels in soil for necessary fertilizing
+-if nutrient levels are low or depleted fills drone reservoir with needed nutrient mixture and flies to plant with deficiency
+- repeats until all plants have proper nutrient levels
+-flies back to charger. 
